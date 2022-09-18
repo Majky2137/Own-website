@@ -1,0 +1,63 @@
+{
+  "name": "Portfolio-project-vue",
+  "homepage": "majkyportf.atspace.eu",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build --sskip-plugins @vue/cli-plugin-eslint",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "@fortawesome/free-solid-svg-icons": "^6.2.0",
+    "@fortawesome/vue-fontawesome": "^3.0.1",
+    "@vueuse/motion": "^2.0.0-beta.12",
+    "core-js": "^3.8.3",
+    "emailjs-com": "^3.2.0",
+    "vue": "^3.2.13",
+    "vue-html2pdf": "^1.8.0",
+    "vue-router": "^4.0.3",
+    "vue2-smooth-scroll": "^1.6.0",
+    "vuex": "^4.0.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.16",
+    "@babel/eslint-parser": "^7.12.16",
+    "@vue/cli-plugin-babel": "~5.0.0",
+    "@vue/cli-plugin-eslint": "^5.0.8",
+    "@vue/cli-plugin-router": "~5.0.0",
+    "@vue/cli-plugin-vuex": "~5.0.0",
+    "@vue/cli-service": "~5.0.0",
+    "@vue/eslint-config-standard": "^6.1.0",
+    "eslint": "^7.32.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-import": "^2.25.3",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "eslint-plugin-promise": "^5.1.0",
+    "eslint-plugin-vue": "^8.0.3",
+    "Portfolio-project-vue": "file:C:\\Users\\Michał\\Music\\Portfolio-project-vue",
+    "prettier": "^2.4.1"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "eslint:recommended",
+      "plugin:prettier/recommended",
+      "@vue/standard"
+    ],
+    "parserOptions": {
+      "parser": "@babel/eslint-parser"
+    }
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead",
+    "not ie 11"
+  ]
+}
